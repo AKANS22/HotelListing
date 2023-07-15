@@ -4,7 +4,7 @@ namespace HotelListing.Data
 {
     public class Country
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string CountryName { get; set; }
         public int CountryCode { get; set; }
         public string CountryDescription { get; set; }
